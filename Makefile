@@ -1,4 +1,4 @@
-SHELL := /bin/bash
+SHELL := env bash
 GO ?= go
 GO_CMD := CGO_ENABLED=0 $(GO)
 GIT_VERSION := $(shell git describe --tags --dirty)
